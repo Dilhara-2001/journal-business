@@ -1,16 +1,63 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# Journal Business Platform
 
-Currently, two official plugins are available:
+A personalized journaling and stationery e-commerce platform where customers can explore monthly themes and customize their journaling products.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Project Overview
 
-## React Compiler
+The platform allows customers to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Explore monthly stationery collections.
+- Choose themes and colour palettes.
+- Customize sticker types, sizes and quantities.
+- Submit personalized design requests.
+- Preview and approve their designs.
+- Purchase products through Cash on Delivery.
 
-## Expanding the Oxlint configuration
+Administrators can manage themes, products, customization requests, artwork and customer orders.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Artwork is created manually by the business owners using customer preferences and ChatGPT Plus. AI image generation is not integrated into the website.
+
+## Technology Stack
+
+### Frontend
+- React.js
+- Vite
+- JavaScript
+- CSS
+
+### Backend
+- Java 17
+- Spring Boot
+- Maven
+- REST APIs
+
+### Database
+- MongoDB
+
+### Development Tools
+- Visual Studio Code
+- IntelliJ IDEA
+- Git and GitHub
+- Postman
+- MongoDB Compass
+
+## Project Structure
+
+```text
+journal-business/
+├── frontend/
+├── backend/
+├── documentation/
+├── .gitignore
+└── README.md
+```
+
+## Development Team
+
+- Developer 1: Frontend Development
+- Developer 2: Backend Development
+
+## Project Status
+
+Currently in the initial development stage.
